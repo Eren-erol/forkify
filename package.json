@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "prebuild": "cp -r src/img public/img",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Jonas Schedtmann",
